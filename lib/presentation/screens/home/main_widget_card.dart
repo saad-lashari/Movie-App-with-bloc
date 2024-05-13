@@ -20,7 +20,7 @@ class MainMovieCard extends StatelessWidget {
             height: size.height * 0.25,
             width: double.infinity,
             fit: BoxFit.cover,
-            imageUrl: '$imageUrl${movie.backdropPath}',
+            imageUrl: movie.fullPosterUrl,
             placeholder: (context, url) => Center(
               child: Icon(
                 Icons.image,

@@ -16,3 +16,9 @@ class HomeScreenError extends HomeScreenState {
 
   HomeScreenError({required this.error});
 }
+
+class HomeScreenMessage extends HomeScreenState {
+  final String message;
+
+  HomeScreenMessage({required this.message});
+}
